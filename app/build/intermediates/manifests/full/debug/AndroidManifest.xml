@@ -22,6 +22,12 @@
             </intent-filter>
         </activity>
         <activity android:name="org.premiereappli.Main2Activity" />
+
+        <provider
+            android:name="org.premiereappli.MyContentProvider"
+            android:authorities="sms"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>
